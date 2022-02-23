@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.header {
+  text-align: center;
+  position: relative;
+}
+
+.centerBox {
+  margin: auto;
+  text-align: center;
+  border: 1px solid;
+  min-width: 40%;
+  max-width: 100%;
+  margin-top: 2rem;
+  margin-left: 25rem;
+  border-radius: 20px;
+  border-color: blue;
+  padding: 25px;
+  position: absolute;
+}
+
+.background {
+  height: 100vh;
+  max-height: 100vh;
+  min-height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./static/Images/Homepage.jpg");
+  background-attachment: fixed;
+}
+
+.button {
+  color: black;
+  font-size: 20px;
+  border: 3px solid;
+  border-color: navy;
+}
+
+.homepage{
+  max-width: 300px;
+  max-height: 300px;
+  min-width: 100px;
+  min-height: 50px
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
